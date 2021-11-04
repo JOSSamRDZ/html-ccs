@@ -1,0 +1,8 @@
+bloque1/img/*.jpg
+bloque1/img/*.jfif
+bloque1/video/*.mp4
+*.jpg   
+*.mp4   
+*.exe   
+*.zip   
+*.jfif

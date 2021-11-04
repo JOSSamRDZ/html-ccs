@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+    <meta name="selectFaction" content="In this page you can selec a faction in Best Weaponss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faction select</title>
+</head>
+<body>
+    <!--para crear un selector usamos la etiqueta <select>
+    dentro de select van las opciones de selección dentro de una etiqueta llamada <opttion> 
+    el value de esta etiqueta debe ser el mismo que el nombre de la opción-->
+    <main>
+       <!--<select name="faction" id="">
+            <option value="Red Conquers">Red Conquers</option>
+            <option value="Chaos users"> Chaos users</option>
+            <option value="Empire firearms">Empire firearms</option>
+            <option value="Before war savages">Before war savages</option>
+        </select--> 
+    <!--Una segunda forma de hacerlo y que se considera una mejor practica es la siguiente
+    Etiqueta <input list = “”>: De este modo, se puede utilizar una etiqueta <datalist> con etiquetas <option>
+    dentro del input. De este modo, el usuario puede escribir dentro del input, y filtrar los resultados de 
+    la lista:
+    
+    Buttos vs Submit
+    input type submit = lo utilizaremos solo en los formularios
+    Button = lo utilizaremos en cualquier otro tipo de boton dentro de nuestro proyecto-->
+  <input list="factions">
+  <datalist id="factions">
+      <option value="Red Conquers"></option>
+      <option value="Cahos Users"></option>
+      <option value="Empire firearms"></option>
+      <option value="Before War Savages"></option>
+  </datalist>
+  <input type="submit">
+  <button type="submit">Enviar</button>
+    </main>
+</body>
+</html>

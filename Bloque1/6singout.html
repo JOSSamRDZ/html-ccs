@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+    <meta name="sign out" content="Sign out on best weapons.com ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign OuT</title>
+</head>
+<body>
+    <main>
+        <!--A continuacion unos ejemplos de como colocar require y autocomplete en un formulario
+        El atributo autocomplete sirve para recordar información que el usuario este usando con regularidad en
+        un formulario y autocompletarlo. Dicho sea de paso hay diferentes valores de autocplete 
+        tu decides cual vas a utilizar segun tu formulario
+        El atributo require: El atributo require, evita que se envíe información del formulario, 
+        si el input está vacío. El atributo se coloca en la etiqueta <input>.  -->
+        <form action="">
+            <label for="firstName"></label>
+            <span>First name</span>
+            <input type="text" id="firstName" name="firstName" autocomplete="name" required>
+
+            <label for="lastName"></label>
+            <span>Last name</span>
+            <input type="text" id="lastName" name="lasrName" autocomplete="name" required>
+
+            <label for="userName"></label>
+            <span>User Name</span>
+            <input type="email" id="usertName" name="userName" autocomplete="email" required>
+
+            <label for="password"></label>
+            <span>Password</span>
+            <input type="text" id="password" name="password" autocomplete="new-password" required>
+
+            <label for="confirmPassword"></label>
+            <span>Confirm password</span>
+            <input type="text" id="confirmPassword" name="confirmPassword" autocomplete="current-password" required>
+
+            <label for="country"></label>
+            <span>country</span>
+            <input type="text" id="country" name="country" autocomplete="country" required >
+
+            <label for="postalCode"></label>
+            <span>Postal code</span>
+            <input type="text" id="postalCode" name="postalCode" autocomplete="postal-code" required>
+           <input type="submit">
+        </form>
+    </main>
+    <footer>
+        <a href="./7selectFaction.html">Select your faction</a>
+    </footer>
+</body>
+</html>

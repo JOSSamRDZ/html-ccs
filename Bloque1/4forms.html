@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+    <meta name="Sing in on EXWEAPONS" content=" Create acount from EXWEAPONS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Usar una etiqueta div para  crear una seccion de formulario es una mla practica, 
+    la forma correcta es la siguiente-->
+    <form action=""> <!--esta etiqueta le especifica al navegador que es una seccion con un formulario-->
+        <label for="nombre"></label>
+        <span>Cual es tu nombre</span><!--especifica al usuario la información requerida-->
+        <input type="text" id="nombre"> <!--esta es la etiqueta de inputs, hay diferentes tipos de inputs, a continuacion
+        un recurso con todos los inputs https://www.w3schools.com/html/html_form_input_types.asp, los atributos id, for o name
+        le asignan una identificación a la etiqueta-->
+        <label for="user-age"></label>
+        <span>Fecha de nacimiento</span>
+        <input type="date" id="user-age"> <!--date es un atributo para solicitar una fecha-->
+
+        <label for="user-time"></label>
+        <span>Que dia comenzaste a estudia</span>
+        <input type="time" id="user-time"><!--time es un atributo para solicitar un horario-->
+    </form>
+
+    <footer>
+        <a href="./calendar.html">New Raid</a>
+    </footer>
+</body>
+</html>

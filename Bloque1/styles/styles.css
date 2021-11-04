@@ -1,0 +1,16 @@
+/*  ejercicio primera clase de CSS Cómo utilizamos CSS?: por etiqueta, selector, class y por ID*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: burlywood;
+}
+.headerMain
+{
+    color: darkblue;
+    text-align: center;
+    background-color: black;
+}

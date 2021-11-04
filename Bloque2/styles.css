@@ -1,0 +1,24 @@
+/* A continuacion veremos que son los selectores y tipos de selectores
+    los selectores son formas los elementos html que queremos agregarle estilos
+*/
+
+/* Forma 1: seleccionar el elemento html en función del nombre del elemento*/
+body
+{
+    background-color: bisque;
+}
+
+/* Forma 2: la segunda forma es por clase agregando a la etiqueta que queremos modificar un atributo 
+class <p class="texto"> */
+
+.footerMenu
+{
+    background-color: blueviolet;
+}
+/* Forma 3: por id, a diferencia de class, los id comienza con un # en la hoja de estilos, se le agrega
+un atriburo id a la etiqueta que querenmos modificar <p id="Texto">*/
+
+#parrafo
+{
+    background-color: chocolate;
+}

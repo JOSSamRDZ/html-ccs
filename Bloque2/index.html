@@ -1,0 +1,44 @@
+<!--Css significa cascadin styles sheets o hoja de estilos en cascada
+    cascading es el algoritmo que utiliza el navegador para aplicar estilos 
+Hay varias formas de agregar estilos a una pagina html:
+1. colocando la etiqueta style dentro de la etiqueta head y agregar los estilos desde ahí
+2. la segunda manera es agregar directamente los estilos a la etiqueta o envebido como se le conoce
+3. la ultima y que por lo generale s una buena practica es crear una hora de estilos y vicularla con nuestro html
+con la etiqueta link y trabajar los estilos desde el documetn css..-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow ">
+    <meta name="Estilos1" content="esta pagina contiene estrucutura basica de css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"> <!--forma 3 desde una hoja de estilos viculada con la etiqueta
+        link-->
+    <style>
+      nav{
+          color: thistle;
+          background-color: tomato; 
+      }
+    </style> <!--forma 1 con una etiqueta de estilos dentro de la etiqueta head-->
+    <title>Como utilizar css: por etiqueta, selector, casll o id</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>hola</h1>
+        </nav>
+    </header>
+    <main>
+        <p style="background-color: brown; color:white;"> Soy un texto</p> <!--forma 2 directamente 
+            en la etiqueta-->
+        <section>
+            <p id="parrafo">Aqui utilizamos el atributo id para agregar estilos</p>
+        </section>
+    </main>
+    
+    <footer class="footerMenu">
+        <h2>aqui utilizamos el atributo class para agregar estilos</h2>
+    </footer>
+</body>
+</html>
