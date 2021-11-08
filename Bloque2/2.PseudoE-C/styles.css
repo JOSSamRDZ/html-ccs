@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+/*bloque*/
+
+.header
+{
+    width: 100%;
+    align-items: center;
+}
+/* bloque */
+.main-figure
+{
+    
+}
+    /* elemento */
+    .main-figure__image
+    {
+
+    }
+/* Bloque */
+.main-nav
+{
+    padding-left: 0%;
+    margin-top: 10px ;
+    list-style: none;
+    background-color: blue;
+    
+}
+
+    /* elemento */
+    .main-nav__item
+    {
+        display: inline-block;
+    }
+        /* modificador */
+
+        .main-nav__item--link
+        {
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: brown;
+        }
+        /* Pseudo clases del modificador link */
+
+        .main-nav__item--link:hover
+        {
+            color: blue;
+        }
+        .main-nav__item--link:active:checked
+        {
+            color: cadetblue;
+        }
+
+        /* pseudo elementos del modificador link */
+
+        .main-nav__item--link::after
+        {
+            content: "|";
+        }
+        .main-nav__item--link::before
+        {
+            content: "|";
+        }
+/* Acontinuacion declaramos los elementos nuestro bloque */

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Acontinuacion llamamos una seccion o bloque de nuestro html */
+
+
+.nav-header
+{
+  
+}
+.nav-figure
+{
+    
+}
+
+
+/* a continuacion llamamos los elementos de nuestro bloque nav-header */
+.nav-header__content
+{
+    
+}
+
+.nav-figure__image
+
+{
+
+}
+
+
+.nav-header__list
+{
+
+}
+
+/* a continuacion llamamos los modificaodres de nuestro bloque nav-header */
+
+.nav-header__list--button
+{
+    
+}
