@@ -1,0 +1,25 @@
+/* Ejemplo de Adjacent Sibling (Hermano adyacente) */
+h2 + p { 
+    color: red;
+}
+
+h3 + p {
+    color: blue;
+}
+
+/*Ejemplo de General Sibling (Hermano general)*/
+h2~ p{
+    color: red;
+}
+
+/* Ejemplo de un combinador child*/
+
+div > p {
+    color: royalblue;
+}
+
+
+/* Ejemplo de un combinador decendiente*/
+article  p {
+    color: seagreen;
+}
